@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@300&display=swap');
+
+body {
+    background-image: url('../../images/double-bubble-outline.png');
+    padding-top: 75px;   
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header h1 {
+    border-radius: .3rem;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: #ffffff;
+    background-image: linear-gradient(#F8A3A8, #F3C6A5, #E5E1AB, #9CDCAA, #96CAF7, #BFB2F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #e3c268;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: auto;
+}
+
+/* Old style
+footer {
+    color: #ffffff;
+    background-color: #a36d4f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: .3rem;
+    margin-top: 0px;
+}
+*/
+
+.bg-light{
+    background-color: #e3c268!important;
+}
+
+.jumbotron {
+    background-color: #fff4d6;
+    border-radius: 0px;
+}
+
+/*
+#a36d4f
+*/
