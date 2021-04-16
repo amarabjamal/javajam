@@ -98,15 +98,17 @@
 
                         jobclass.forEach ( job => {
                             var option = document.createElement("option");
-                            txt = document.createTextNode(job.name);
-                            option.appendChild(txt);
+                            option.id = job.code;
+                            option.text = job.name
+                            /* txt = document.createTextNode(job.name);
+                            option.appendChild(txt); */
                             select.insertBefore(option,select.lastChild);
                         })
 
                         select.addEventListener("change", function() {
                             var selected_option = this.value;
                             var txt;
-                            
+
                             jobclass.forEach( job => {
                                 if (job.name == selected_option) {
                                     txt = job.scope
